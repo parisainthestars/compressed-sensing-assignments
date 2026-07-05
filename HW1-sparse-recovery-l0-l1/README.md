@@ -94,10 +94,37 @@ The runtime comparison also shows the computational advantage of the convex rela
 
 **Figure 3.** Recovery error as the sparsity level increases. The experiment shows that recovery is reliable for small sparsity levels, but the error increases significantly when the signal becomes less sparse.
 
-## What I Learned
+## Key Takeaways
 
-This assignment demonstrates one of the central ideas of compressed sensing: under suitable conditions, a sparse signal can be recovered from far fewer measurements than its ambient dimension.
+<div align="center">
 
-The main lesson is that direct $\ell_0$ minimization is conceptually simple but computationally infeasible for larger problems, while $\ell_1$ minimization provides an efficient convex relaxation that can recover the same sparse solution in practice.
+<table>
+  <tr>
+    <th>Concept</th>
+    <th>Main Takeaway</th>
+  </tr>
+  <tr>
+    <td><b>Sparse recovery</b></td>
+    <td>A sparse signal can be reconstructed from far fewer measurements than its original dimension.</td>
+  </tr>
+  <tr>
+    <td><b>ℓ₀ minimization</b></td>
+    <td>Gives the direct sparse solution, but becomes computationally expensive because it searches over possible supports.</td>
+  </tr>
+  <tr>
+    <td><b>ℓ₁ minimization</b></td>
+    <td>Provides an efficient convex relaxation and recovered the same signal up to numerical precision.</td>
+  </tr>
+  <tr>
+    <td><b>Sparsity effect</b></td>
+    <td>Recovery is reliable for small sparsity levels, but the error increases when the signal becomes less sparse.</td>
+  </tr>
+  <tr>
+    <td><b>Sensing matrix</b></td>
+    <td>The structure of the sensing matrix affects the success and stability of sparse recovery.</td>
+  </tr>
+</table>
+
+</div>
 
 The sparsity-level experiment also illustrates that recovery quality depends strongly on how sparse the signal is relative to the number of measurements and the structure of the sensing matrix.
