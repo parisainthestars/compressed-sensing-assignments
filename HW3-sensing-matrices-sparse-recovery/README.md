@@ -156,7 +156,7 @@ When the sparsity level is increased to $S = 25$, recovery becomes much harder a
   <img src="figures/frequency_sparse_sampling_comparison_s25.png" width="750"/>
 </p>
 
-**Figure 4.** Frequency-sparse recovery experiment with $S = 25$. Increasing the sparsity level makes the recovery problem much more difficult, and the success rate drops sharply.
+**Figure 4.** Frequency-sparse recovery experiment with $S = 25$. In this harder setting, all tested sampling methods have nearly zero recovery success, showing that increasing the sparsity level makes the recovery problem much more difficult.
 
 ## Key Takeaways
 
@@ -181,7 +181,7 @@ When the sparsity level is increased to $S = 25$, recovery becomes much harder a
   </tr>
   <tr>
     <td><b>Random orthonormal sensing</b></td>
-    <td>Random orthonormal measurements gave strong performance, especially for frequency-sparse signals with small sparsity.</td>
+    <td>For time-sparse signals, random frequency sampling gives strong recovery performance when the number of measurements is large enough. For frequency-sparse signals, the orthonormal random sensing matrix gives the strongest performance among the tested sampling methods.</td>
   </tr>
   <tr>
     <td><b>Sparsity level</b></td>
