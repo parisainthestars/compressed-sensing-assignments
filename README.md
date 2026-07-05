@@ -20,3 +20,4 @@ The goal of this repository is to document what I implemented and learned during
 - \( \ell_1 \) minimization as a convex relaxation
 - Linear programming formulation of basis pursuit
 - Empirical testing of recovery limits as sparsity increases
+
