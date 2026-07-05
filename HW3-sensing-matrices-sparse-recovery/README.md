@@ -116,9 +116,7 @@ where $\alpha$ is sparse. After recovering $\alpha$, the signal is reconstructed
 
 ## Key Results
 
-For time-sparse signals, direct time-domain subsampling performs poorly because the measurements may miss the nonzero entries of the signal.
-
-Frequency-domain and random orthonormal sensing matrices perform much better. In particular, random frequency sampling and orthonormal random sampling give strong recovery performance when the number of measurements is large enough.
+For time-sparse signals, random frequency sampling gives strong recovery performance when the number of measurements is large enough. For frequency-sparse signals, the orthonormal random sensing matrix gives the strongest performance among the tested sampling methods.
 
 For frequency-sparse signals with $S = 5$, the orthonormal random sensing matrix gives the strongest recovery performance among the tested sampling methods.
 
@@ -181,8 +179,7 @@ When the sparsity level is increased to $S = 25$, recovery becomes much harder a
   </tr>
   <tr>
     <td><b>Random orthonormal sensing</b></td>
-    <td>For time-sparse signals, random frequency sampling gives strong recovery performance when the number of measurements is large enough. For frequency-sparse signals, the orthonormal random sensing matrix gives the strongest performance among the tested sampling methods.</td>
-  </tr>
+    <td>Random orthonormal measurements gave strong performance, especially for frequency-sparse signals with small sparsity.</td>
   <tr>
     <td><b>Sparsity level</b></td>
     <td>Recovery becomes much harder when the sparsity level increases from S = 5 to S = 25.</td>
