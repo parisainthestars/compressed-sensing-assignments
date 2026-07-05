@@ -63,10 +63,14 @@ Both $\ell_0$ and $\ell_1$ minimization successfully recover this sparse vector.
 
 The runtime comparison also shows the computational advantage of the convex relaxation:
 
+<div align="center">
+
 | Method | Runtime |
 |---|---|
 | Exhaustive $\ell_0$ search | About 14.5 seconds |
 | $\ell_1$ linear programming | About 0.008 seconds |
+
+</div>
 
 ## Figures
 
